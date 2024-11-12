@@ -93,7 +93,7 @@ typedef GPB_ENUM(VarType_Type) {
   VarType_Type_FetchList = 10,
   VarType_Type_StepScopes = 11,
   VarType_Type_LodRankTable = 12,
-  VarType_Type_LodTensorArray = 13,
+  VarType_Type_DenseTensorArray = 13,
   VarType_Type_PlaceList = 14,
   VarType_Type_Reader = 15,
   VarType_Type_Channel = 16,
@@ -469,7 +469,7 @@ typedef GPB_ENUM(VarType_LoDTensorArrayDesc_FieldNumber) {
 #pragma mark - VarType_ReaderDesc
 
 typedef GPB_ENUM(VarType_ReaderDesc_FieldNumber) {
-  VarType_ReaderDesc_FieldNumber_LodTensorArray = 1,
+  VarType_ReaderDesc_FieldNumber_DenseTensorArray = 1,
 };
 
 @interface VarType_ReaderDesc : GPBMessage
